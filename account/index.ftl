@@ -286,6 +286,27 @@
                             </h2>
                         </div>
 
+                        <div class="pf-c-card pf-m-full-height">
+                            <h2 class="pf-c-card__title pf-u-display-flex pf-u-w-100 pf-u-flex-direction-column">
+                                <a class="pf-u-display-flex pf-u-w-100 pf-u-flex-direction-column pf-u-align-items-center"
+                                   href="https://dcim.dd-ix.net" target="_blank">
+                                    <img class="pf-u-w-75" src="${resourceUrl}/public/netbox.svg"
+                                         alt="icon"/>
+                                    Dcim (Netbox)
+                                </a>
+                            </h2>
+                        </div>
+
+                        <div class="pf-c-card pf-m-full-height">
+                            <h2 class="pf-c-card__title pf-u-display-flex pf-u-w-100 pf-u-flex-direction-column">
+                                <a class="pf-u-display-flex pf-u-w-100 pf-u-flex-direction-column pf-u-align-items-center"
+                                   href="https://vault.dd-ix.net" target="_blank">
+                                    <img class="pf-u-w-75" src="${resourceUrl}/public/vaultwarden.png"
+                                         alt="icon"/>
+                                    Vault (Vaultwarden/Bitwarden)
+                                </a>
+                            </h2>
+                        </div>
                     </div>
                 </div>
             </section>
