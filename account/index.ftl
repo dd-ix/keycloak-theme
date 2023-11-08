@@ -315,6 +315,7 @@
     </div>
 </div>
 
+<!--
 <script>
     const removeHidden = (content) => {
         content.forEach(c => {
@@ -326,6 +327,7 @@
     }
     removeHidden(content);
 </script>
+-->
 
 </body>
 </html>
