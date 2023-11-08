@@ -144,6 +144,7 @@
         if (!keycloak.authenticated) {
             document.getElementById("landingSignInButton").style.display = 'inline';
             document.getElementById("landingSignInLink").style.display = 'inline';
+            document.getElementById("apps").style.display = 'none';
         } else {
             document.getElementById("landingSignOutButton").style.display = 'inline';
             document.getElementById("landingSignOutLink").style.display = 'inline';
@@ -251,7 +252,7 @@
             </section>
             <section class="pf-c-page__main-section pf-m-limit-width pf-m-overflow-scroll">
                 <div class="pf-c-page__main-body">
-                    <div class="pf-l-gallery pf-m-gutter">
+                    <div class="pf-l-gallery pf-m-gutter" id="apps">
 
                         <div class="pf-c-card pf-m-full-height">
                             <h2 class="pf-c-card__title pf-u-display-flex pf-u-w-100 pf-u-flex-direction-column">
